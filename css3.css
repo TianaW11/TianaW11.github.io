@@ -1,0 +1,88 @@
+ h1{
+    font-family: 'Poppins',sans-serif; 
+    color: white;
+    background-color: rgb(231, 0, 0);
+    text-align: center;
+    padding: 4%;
+    font-weight: 300px;
+    border-radius: 100px;
+    font-size: 40px;
+
+
+}
+body{
+    background-color: black;
+}
+.Nav{
+    position: fixed;
+  bottom: 63%;  
+  left: 85%; 
+  height: 40%;
+
+}
+.BackgroundImage{
+    border: 2px solid rgb(255, 255, 255); 
+    width: 1450px; 
+    height: 2950px;
+    position: absolute;
+    
+    
+}
+/* C=column */
+.C1{
+    border: 2px solid rgb(255, 255, 255); 
+    width: 5%;
+    position: relative;
+    padding: 10%; 
+    padding-bottom: 57%;
+    margin-right: 20%;
+    margin-left: 5%;
+    top: 25%; 
+    left: 5%; 
+    color: white;
+}
+.C2{
+    border: 2px solid rgb(255, 255, 255); 
+    width: 5%;
+    position: relative;
+    padding: 10%; 
+    padding-bottom: 57%;
+    margin-left: 33%;
+    top: 25%; 
+    left: 5%; 
+    color: white;
+}
+.C3{
+    border: 2px solid rgb(255, 255, 255); 
+    width: 5%;
+    position: relative;
+    padding: 10%; 
+    padding-bottom: 47.5%;
+    margin-left: 61%;
+    top: 25%; 
+    left: 5%; 
+    color: white;
+}
+
+
+footer{
+    padding: 5%;
+    background-color: rgb(255, 207, 36);
+    text-align: center;
+    font-family: futura, sans-serif; 
+    margin-top: 20%;
+    position: relative;
+
+}
+a{
+    color: red;
+    position: relative;
+    bottom: 50px;
+    left: 30%;
+}
+.a2{
+    color: red;
+    position: relative;
+    bottom: 70px;
+    left: 60%;
+}
