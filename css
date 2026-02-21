@@ -25,18 +25,24 @@ body{
 }
 
 .Bus{ 
-    border: 2px solid rgb(255, 255, 255); 
+    
     width: 40%;
     padding: 10%; 
     padding-bottom: 30%;
     padding-right: 25%;
-    display: flex;
+    position: relative;
     margin-bottom: 5%;
     margin-top: 5%;
     color: white;
-
-
 }
+.busText{
+   position: absolute;
+   z-index: 1;
+   height: 100%;
+   top: 2%;
+   left: -5%;
+}
+
 .Streetcar{
     border: 2px solid white; 
     width: 40%;
@@ -67,7 +73,7 @@ footer{
 
 }
 .button{
-    padding: 20px; 
+    padding: 10px; 
     color: black; 
     background-color: rgb(255, 207, 36);
     border: none; 
@@ -75,7 +81,7 @@ footer{
     border-radius: 40%; 
     font-size: 25px; 
     position: absolute; 
-    right: 10%; 
+    right: 2%; 
     top: 75%; 
     transition-duration: 0.4s;
 }
@@ -137,4 +143,18 @@ footer{
     margin-left: 77%;
     top: 210%; 
     color: white;
+}
+.Svg{
+   position: absolute;
+   height: 100%;
+   top: 20%;
+   left: -15%;
+   z-index: 2;
+}
+.TTClogo{
+    position: absolute;
+   z-index: 1;
+   height: 15%;
+   bottom: 80%; 
+   left: -10%;
 }
