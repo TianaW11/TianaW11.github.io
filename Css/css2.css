@@ -1,0 +1,229 @@
+ h1{
+    font-family: 'Poppins',sans-serif; 
+    color: white;
+    background-color: rgb(231, 0, 0);
+    text-align: center;
+    padding: 4%;
+    font-weight: 600;
+    border-radius: 100px;
+    font-size: 40px;
+
+
+}
+body{
+    background-color: black;
+   
+}
+.navigation{
+  position: relative;
+  display: inline-block;
+  position: fixed; 
+  bottom: 78%; 
+  left: 85%; 
+  z-index: 1; 
+
+}
+.nav-button{
+  background: none; 
+  border: none;
+  cursor: pointer; 
+  padding: 20px; 
+  display: flex; 
+  align-items:center; 
+  justify-content: center; 
+}
+.dropdown{
+  opacity: 0; 
+  visibility: hidden; 
+  position: absolute; 
+  top: 55%; 
+  left: 25%; 
+  background: rgb(255, 207, 36); 
+  box-shadow: 0px 4px 10px rgb(231, 0, 0);
+  font-family: sans-serif; 
+  transition: opacity 0.3s ease; 
+}
+.dropdown a{
+  display: block; 
+  padding: 10px;
+  text-decoration: none; 
+  color: black; 
+}
+.dropdown a:hover{
+  background: white;
+}
+.navigation:hover{
+  opacity: 1; 
+  visibility: visible; 
+}
+
+.Nav{
+  display: block;
+  width: 200px; 
+  height: 200px;  
+  transition: transform 0.5s ease;
+}
+.nav-button:hover .Nav{
+  transform: rotate(90deg);
+}
+.dropdown.show{
+  opacity: 1; 
+  visibility: visible; 
+ 
+}
+
+.SecondBusSvg{
+    position: absolute;
+    left: 10%; 
+    top: 0; 
+    height: 200%;
+    width: 200%;
+}
+
+.TTClogo{
+   position: absolute;
+   z-index: 1;
+   height: 15%;
+   bottom: 80%; 
+   left: -10%;
+   transform: 0.10s ease-in-out; 
+}
+.TTClogo:hover{
+    transform: scale(1.2);
+    
+}
+.Textbox1{
+    
+    width: 10%;
+    position: absolute;
+    padding: 10%; 
+    padding-left: 10%;
+    top: 45%; 
+    left: 30%; 
+    color: white;
+    font-size: 14px;
+    font-family:sans-serif; 
+    
+    
+}
+.Textbox2{
+    position: absolute;
+    padding: 5%; 
+    padding-left: 10%;
+    padding-bottom: 30%;
+    top: 64%; 
+    left: 30%; 
+    color: white;
+     font-weight: 10;
+    font-size: 12px;
+    font-family:sans-serif; 
+    width: 25%;
+    
+}
+.Textbox7{
+    position: absolute;
+    padding: 5%; 
+    padding-left: 10%;
+    padding-bottom: 30%;
+    top: 70%; 
+    left: 62%; 
+    color: white;
+    font-size: 12px;
+    font-family:sans-serif; 
+    width: 9%;
+    font-weight: 100;
+}
+.Textbox3{
+    
+    width: 10%;
+    position: absolute;
+    padding: 10%; 
+    padding-left: 10%;
+    top: 50%; 
+    left: 76.5%; 
+    color: white;
+     font-size: 12px;
+    font-family:sans-serif; 
+    width: 10%;
+    font-weight: 100%;
+    
+}
+.Textbox4{
+   
+    width: 5%;
+    position: absolute;
+    padding: 10%; 
+    padding-left: 5%;
+    top: 88%; 
+    left: 81%; 
+    color: white;
+    font-size: 12px;
+    font-family:sans-serif; 
+    width: 10%;
+    font-weight: 100%;
+    
+}
+.Textbox6{
+    width: 5%;
+    position: absolute;
+    padding: 10%; 
+    padding-left: 5%;
+    top: 50%; 
+    left: 97%; 
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif; 
+    width: 7%;
+    font-weight: 100%;
+}
+.Textbox5{
+     
+     width: 5%;
+    position: absolute;
+    padding: 10%; 
+    padding-left: 5%;
+    top: 62%; 
+    left: 113%; 
+    color: white;
+    font-size: 12px;
+    font-family:sans-serif; 
+    width: 14%;
+    font-weight: 10%;
+    
+}
+.Textbox8{
+     width: 5%;
+    position: absolute;
+    padding: 10%; 
+    padding-left: 5%;
+    top: 68%; 
+    left: 133%; 
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif; 
+    width: 10%;
+}
+.InsidelookButton{
+    width: 120px;
+    height: 120px;
+    padding: 0; 
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255, 207, 36);
+    border: none; 
+    outline: black; 
+    text-align: center;
+    border-radius: 50%; 
+    font-size: 20px; 
+    font-weight: 800;
+    position: absolute; 
+    top: 90%; 
+    left: 195%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+}
+.InsidelookButton:hover{
+    background-color: rgb(255, 207, 36);
+    color: red;
+}
