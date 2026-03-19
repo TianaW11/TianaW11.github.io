@@ -40,6 +40,7 @@ body{
   box-shadow: 0px 4px 10px rgb(231, 0, 0);
   font-family: sans-serif; 
   transition: opacity 0.3s ease; 
+  z-index: 100;
 }
 .dropdown a{
   display: block; 
@@ -70,7 +71,14 @@ body{
  
 }
 
-
+.SecondStreetcarSVG{
+   position: absolute;
+    left: 10%; 
+    top: 60%; 
+    height: 150%;
+    width: 150%;
+    z-index: -1;
+}
 .TTClogo{
    position: absolute;
    z-index: 1;
@@ -84,100 +92,98 @@ body{
     
 }
 .Textbox1{
-     width: 10%;
+     width: 20%;
     position: absolute;
-    padding: 10%; 
-    padding-left: 10%;
-    top: 60%; 
-    left: 3%; 
+    padding: 5%; 
+    padding-left: 5;
+    top: 30%; 
+    left: 5%; 
     color: white;
-    font-size: 11px;
-    font-family: 'Poppins',sans-serif; 
+    font-size: 14px;
+    font-family:sans-serif; 
+    line-height: 1.6;
+    font-weight: normal;
     
 }
 .Textbox2{
-      position: absolute;
+      width: 20%;
+    position: absolute;
     padding: 5%; 
-    padding-left: 10%;
-    padding-bottom: 30%;
-    top: 90%; 
-    left: 3%; 
+    padding-left: 5;
+    top: 30%; 
+    left: 30%; 
     color: white;
-    font-size: 11px;
-    font-family: 'Poppins',sans-serif; 
-    width: 28%;
-    font-weight: 100%;
-    
-    
+    font-size: 14px;
+    font-family:sans-serif; 
+    line-height: 1.6;
+   
 }
 .Textbox6{
-     position: absolute;
+     width: 20%;
+    position: absolute;
     padding: 5%; 
-    padding-left: 10%;
-    padding-bottom: 30%;
-    top: 69%; 
-    left: 15%; 
+    padding-left: 5;
+    top: 30%; 
+    left: 55%; 
     color: white;
-    font-size: 11px;
-    font-family: 'Poppins',sans-serif; 
-    width: 25%;
-    font-weight: 100%;
+    font-size: 14px;
+    font-family:sans-serif; 
+    line-height: 1.6;
 }
 .Textbox3{
-      position: absolute;
-    padding: 5%; 
-    padding-left: 10%;
-    padding-bottom: 30%;
-    top: 62%; 
-    left: 45%; 
-    color: white;
-    font-size: 11px;
-    font-family: 'Poppins',sans-serif; 
-    width: 12%;
-    font-weight: 100%;
-    
-}
-.Textbox4{
+     width: 20%;
     position: absolute;
     padding: 5%; 
-    padding-left: 10%;
-    padding-bottom: 30%;
-    top: 68%; 
-    left: 60%; 
+    padding-left: 5;
+    top: 30%; 
+    left: 80%; 
     color: white;
-    font-size: 11px;
-    font-family: 'Poppins',sans-serif; 
-    width: 13%;
-    font-weight: 100%;
+    font-size: 14px;
+    font-family:sans-serif; 
+    line-height: 1.6;
+    z-index: -1;
+}
     
+.Textbox4{
+  width: 20%;
+    position: absolute;
+    padding: 5%; 
+    padding-left: 5;
+    top: 30%; 
+    left: 105%; 
+    color: white;
+    font-size: 14px;
+    font-family:sans-serif; 
+    line-height: 1.6;
+    z-index: -1;
 }
 .Textbox5{
+   width: 20%;
     position: absolute;
     padding: 5%; 
-    padding-left: 10%;
-    padding-bottom: 30%;
-    top: 75%; 
-    left: 90%; 
+    padding-left: 5;
+    top: 30%; 
+    left: 130%; 
     color: white;
-    font-size: 7px;
-    font-family: 'Poppins',sans-serif; 
-    width: 6%;
-    font-weight: 100%;
-    
+    font-size: 14px;
+    font-family:sans-serif; 
+    line-height: 1.6;
+    z-index: -1;
 }
 .Textbox7{
+    width: 20%;
     position: absolute;
     padding: 5%; 
-    padding-left: 10%;
-    padding-bottom: 30%;
-    top: 70%; 
-    left: 77%; 
+    padding-left: 5;
+    top: 30%; 
+    left: 135%; 
     color: white;
-    font-size: 8px;
-    font-family: 'Poppins',sans-serif; 
-    width: 5%;
-    font-weight: 100%;
+    font-size: 14px;
+    font-family:sans-serif; 
+    line-height: 1.6;
+    z-index: -1;
 }
+
 .InsidelookButton{
     width: 120px;
     height: 120px;
@@ -192,11 +198,12 @@ body{
     font-weight: 800;
     position: absolute; 
     top: 95%; 
-    left: 120%; 
+    left: 150%; 
     display: flex;
     align-items: center;
     justify-content: center;
     transition-duration: 0.4s;
+    z-index: -1;
 }
 .InsidelookButton:hover{
     background-color: rgb(255, 207, 36);
