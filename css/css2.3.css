@@ -1,17 +1,22 @@
  h1{
-    font-family: 'Poppins',sans-serif; 
+background-color: rgb(231, 0, 0);
     color: white;
-    background-color: rgb(231, 0, 0);
     text-align: center;
-    padding: 4%;
-    font-weight: 300px;
+    padding: 2%;
+    font-family: 'Poppins',sans-serif; 
+    font-weight: 800;
     border-radius: 100px;
-    font-size: 40px;
-
+    font-size: 60px;
 
 }
-body{
+body, html{
     background-color: rgb(0, 0, 0);
+    cursor: url("../images/CursorIcon4.png") 102 102, pointer;
+    overflow-y: hidden;
+}
+.button, .button:hover, .button2, .button2:hover, .button3, .button3:hover,.dropdown a, .dropdown,.dropdown a:hover,.dropdown.show, .Nav, .nav-button, .nav-button:hover
+, .nav-button:hover, .navigation, .navigation:hover,.TTClogo {
+cursor: url("../images/CursorClick.png") 102 102, pointer;
 }
 .SecondSubwaySVG{
    position: absolute;
@@ -84,7 +89,7 @@ body{
    position: absolute;
    z-index: 1;
    height: 15%;
-   bottom: 80%; 
+   bottom: 78%; 
    left: -10%;
    transform: 0.10s ease-in-out; 
 }
@@ -102,7 +107,8 @@ body{
     left: 5%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+     font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
     
 }
@@ -115,7 +121,8 @@ body{
     left: 30%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+     font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
     
 }
@@ -128,7 +135,8 @@ body{
     left: 55%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+     font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
 }
 .TextboxPros{
@@ -140,7 +148,8 @@ body{
     left: 80%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+     font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
     z-index: -1;
 }
@@ -149,17 +158,18 @@ body{
     position: absolute;
     padding: 5%; 
     padding-left: 5;
-    top: 27%; 
+    top: 30%; 
     left: 105%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+     font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
     z-index: -1;
 }
 .InsidelookButton{
-    width: 120px;
-    height: 120px;
+    width: 135px;
+    height: 135px;
     padding: 0; 
     color: rgb(0, 0, 0); 
     background-color: rgb(255, 207, 36);

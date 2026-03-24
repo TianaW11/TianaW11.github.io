@@ -1,18 +1,24 @@
  h1{
-    font-family: 'Poppins',sans-serif; 
+   background-color: rgb(231, 0, 0);
     color: white;
-    background-color: rgb(231, 0, 0);
     text-align: center;
-    padding: 4%;
-    font-weight: 1000;
+    padding: 2%;
+    font-family: 'Poppins',sans-serif; 
+    font-weight: 300px;
     border-radius: 100px;
-    font-size: 40px;
+    font-size: 50px;
 
 
 }
-body{
+body, html{
     background-color: black;
+     cursor: url("../images/CursorIcon4.png") 102 102, pointer;
 }
+.dropdown a, .dropdown,.dropdown a:hover,.dropdown.show, .Nav, .nav-button, .nav-button:hover
+, .nav-button:hover, .navigation, .navigation:hover,.TTClogo {
+cursor: url("../images/CursorClick.png") 102 102, pointer;
+}
+
 .navigation{
   position: relative;
   display: inline-block;
@@ -73,10 +79,16 @@ body{
 }
 
 .TTClogo{
-     position: absolute;
+   position: absolute;
+   z-index: 1;
    height: 15%;
-   bottom: 80%; 
-   left: -5%;
+   bottom: 81%; 
+   left: -7%;
+   transform: 0.10s ease-in-out; 
+}
+.TTClogo:hover{
+    transform: scale(1.2);
+    
 }
 .BackgroundImage{
     border: 2px solid rgb(255, 255, 255); 
@@ -93,8 +105,10 @@ body{
     top: 25%; 
     left: 0%; 
     color: white;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
     font-family: 'Poppins',sans-serif; 
+    line-height: 1.6;
 
 }
 .C2{
@@ -105,8 +119,10 @@ body{
     top: 25%; 
     left: 30%;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
     font-family: 'Poppins',sans-serif; 
+    line-height: 1.6;
 }
 .C3{ 
     width: 20%;
@@ -115,9 +131,10 @@ body{
     top: 25%; 
     left: 60%; 
     color: white;
-    font-size: 20px;
-    font-family: 'Poppins',sans-serif; 
-    z-index: -1;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.6;
 }
 
 
@@ -135,11 +152,15 @@ footer{
     position: relative;
     bottom: 50px;
     left: 30%;
+    cursor: url("../images/CursorClick.png") 102 102, pointer;
+    text-decoration: none;
 }
 .a2{
     color: red;
     position: relative;
     bottom: 70px;
     left: 60%;
+    cursor: url("../images/CursorClick.png") 102 102, pointer;
+    text-decoration: none;
 }
 

@@ -1,18 +1,26 @@
  h1{
-  font-family: 'Poppins',sans-serif; 
+ background-color: rgb(231, 0, 0);
     color: white;
-    background-color: rgb(231, 0, 0);
     text-align: center;
-    padding: 4%;
-    font-weight: 300px;
+    padding: 2%;
+    font-family: 'Poppins',sans-serif; 
+    font-weight: 800;
     border-radius: 100px;
-    font-size: 40px;
-
+    font-size: 60px;
 }
 
-body{
+body, html{
     background-color: black;
+     cursor: url("../images/CursorIcon4.png") 102 102, pointer;
+     overflow-y: hidden;
 }
+.dropdown a, .dropdown,.dropdown a:hover,.dropdown.show, .Nav, .nav-button, .nav-button:hover
+, .nav-button:hover, .navigation, .navigation:hover,.TTClogo {
+cursor: url("../images/CursorClick.png") 102 102, pointer;
+}
+
+
+
 .navigation{
   position: relative;
   display: inline-block;
@@ -84,7 +92,7 @@ body{
    position: absolute;
    z-index: 1;
    height: 15%;
-   bottom: 80%; 
+   bottom: 79%; 
    left: -10%;
    transform: 0.10s ease-in-out; 
 }
@@ -102,7 +110,8 @@ body{
     left: 5%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+    font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
     
 }
@@ -117,7 +126,8 @@ body{
     left: 30%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif; 
     line-height: 1.6;
     
 }
@@ -131,7 +141,8 @@ body{
     left: 55%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+    font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
     
 }
@@ -144,7 +155,8 @@ body{
     left: 80%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+    font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
 }
 .Textbox5{
@@ -157,15 +169,15 @@ body{
     left: 105%; 
     color: white;
     font-size: 14px;
-    font-family:sans-serif; 
+    font-weight: 600;
+    font-family:'Poppins',sans-serif; 
     line-height: 1.6;
     
 }
 
 .InsidelookButton{
-    width: 120px;
-    height: 120px;
-    padding: 0; 
+    width: 135px;
+    height: 135px;
     color: rgb(0, 0, 0); 
     background-color: rgb(255, 207, 36);
     border: none; 
