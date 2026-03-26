@@ -150,16 +150,24 @@ footer{
 .a3{
     color: red;
     position: relative;
-    bottom: 50px;
+    bottom: 55px;
     left: 30%;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5% 2%;
+    padding-top: 1%;
     cursor: url("../images/CursorClick.png") 102 102, pointer;
     text-decoration: none;
 }
 .a2{
     color: red;
     position: relative;
-    bottom: 70px;
-    left: 60%;
+    bottom: 55px;
+    left: 30%;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5% 2%;
+    padding-top: 1%;
     cursor: url("../images/CursorClick.png") 102 102, pointer;
     text-decoration: none;
 }
