@@ -127,7 +127,7 @@ cursor: url("../images/CursorClick.png") 102 102, pointer;
     
 }
 .Textbox1{
-    width: 20%;
+    width: 21%;
     position: absolute;
     padding: 5%; 
     padding-left: 5;
@@ -140,7 +140,7 @@ cursor: url("../images/CursorClick.png") 102 102, pointer;
     line-height: 1.6;
 }
 .TextboxPros{
-   width: 20%;
+   width: 19%;
     position: absolute;
     padding: 5%; 
     padding-left: 5;
