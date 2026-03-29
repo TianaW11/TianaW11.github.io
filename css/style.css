@@ -287,25 +287,26 @@ footer{
     font-family: 'Poppins',sans-serif; 
     font-weight: 300vw;
     border-radius: 100vw;
-    font-size: 5vw;
+    font-size: 8vw;
   
 
 }
 .sub-head{
 
     color: white;
-    font-size: 1.5vw;
     text-align: center;
     font-family: 'Poppins',sans-serif;
-    font-weight: 200; 
+    font-weight: 400; 
+    font-size: 3vw;
+    margin-top: 25%;
 
 }
 .navigation{
-  position: absolute;
-  display: inline-block;
+  max-width: 41vw; 
+  height: 48vw;  
   position: fixed; 
-  bottom: 93.8%; 
-  left: 22%; 
+  bottom: 81%; 
+  left: 50%; 
   z-index: 100;
 
 }
@@ -345,9 +346,6 @@ footer{
 }
 
 .Nav{
-  display: absolute;
-  max-width: 200px; 
-  height: 200px;  
   transform: scale(0.4);
   transition: transform 0.5s ease;
 }
@@ -373,7 +371,7 @@ body{
    position: absolute;
    z-index: 1;
    height: 30%;
-   top: 5%;
+   top: 22%;
    left: -8%;
 }
 .STText{
@@ -381,15 +379,15 @@ body{
    position: absolute;
    z-index: 1;
    height: 25%;
-   top: 57%;
-   left: 7%;
+   top: 65%;
+   left: 2%;
 }
 .SBText{
    max-width: 70%;
    position: absolute;
    z-index: 1;
    height: 25%;
-   top: 100%;
+   top: 105%;
    left: 5%;
 }
 
@@ -400,7 +398,7 @@ footer{
     text-align: center;
     font-family: 'Poppins', sans-serif; 
     margin-top: 25%;
-    top: 150%;
+    top: 145%;
     font-size: 12px;
     font-weight: 500;
 
@@ -418,8 +416,8 @@ footer{
     line-height: 60px;
     font-weight: 900;
     position: absolute; 
-    right: 20%; 
-    top: 43%; 
+    right: 10%; 
+    top: 58%; 
     transition-duration: 0.4s;
 }
 .button:hover{
@@ -439,8 +437,8 @@ footer{
     line-height: 60px;
     font-weight: 800;
     position: absolute; 
-    right: 20%; 
-    top: 90%; 
+    right: 10%; 
+    top: 102%; 
     z-index: 1000;
     transition-duration: 0.4s;
 }
@@ -461,8 +459,8 @@ footer{
     line-height: 60px;
     font-weight: 800;
     position: absolute; 
-    right: 20%; 
-    top: 148%; 
+    right: 10%; 
+    top: 140%; 
     z-index: 1000;
     transition-duration: 0.4s;
 }
@@ -484,7 +482,7 @@ footer{
     position: absolute;
     max-width: 30%;
     top: 38%; 
-    left: -50%; 
+    left: -15%; 
     color: white;
     font-size: 7px;
     line-height: 1.7;
@@ -492,10 +490,10 @@ footer{
 .describe2{
     font-family: 'Poppins',sans-serif; 
     text-align: left;
-    max-width: 30%;
+    max-width: 34%;
     position: absolute;
-    top: 85%; 
-    left: 28%; 
+    top: 80%; 
+    left: 59%; 
     margin-right: 5%;
     color: white;
     font-size: 7px;
@@ -505,42 +503,44 @@ footer{
    font-family: 'Poppins',sans-serif; 
     position: absolute;
     max-width: 28%;
-    top: 142%; 
-    left: -50%; 
+    top: 120%; 
+    left: -15%; 
     color: white;
     font-size: 7px;
     line-height: 1.7;
 }
 .Svg{
-    max-width: 106%;
+    max-width: 180%;
+    
    position: absolute;
-   height: 35%;
-   top: 10%;
-   left: -3%;
+   max-height: 40%;
+   top: 30%;
+   left: -89%;
    z-index: 2;
 
 }
 .STsvg{
-   max-width: 106%;
+   max-width: 180%;
    position: absolute;
    height: 30%;
-   top: 54%;
-   left: -5%;
+   top: 75%;
+   left: -82%;
    z-index: 2;
+   transform: scalex(-1); 
 }
 .SBsvg{
    max-width: 140%;
    position: absolute;
    height: 40%;
-   top: 105%; 
-   left: -25%;
+   top: 110%; 
+   left: -70%;
    z-index: 2;
 }
 .TTClogo{
    position: absolute;
    z-index: 1;
-   height: 4%;
-   bottom: 94%; 
-   left: -68%;
+   height: 8%;
+   bottom: 82%; 
+   left: -65%;
 }
 }
