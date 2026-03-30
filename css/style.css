@@ -67,7 +67,7 @@ h1{
 
 .Nav{
   display: block;
-  max-width: 200px; 
+  width: 200px; 
   height: 200px;  
   transition: transform 0.5s ease;
 }
@@ -136,7 +136,7 @@ footer{
     background-color: rgb(255, 207, 36);
     text-align: center;
     font-family: 'Poppins', sans-serif; 
-    margin-top: 80%;
+    margin-top: 170%;
 
 }
 
@@ -302,10 +302,10 @@ footer{
 
 }
 .navigation{
-  max-width: 41vw; 
+  width: 41vw; 
   height: 48vw;  
   position: fixed; 
-  bottom: 81%; 
+  bottom: 75%; 
   left: 50%; 
   z-index: 100;
 
@@ -417,7 +417,7 @@ footer{
     font-weight: 900;
     position: absolute; 
     right: 10%; 
-    top: 60%; 
+    top: 64%; 
     transition-duration: 0.4s;
 }
 .button:hover{
@@ -438,7 +438,7 @@ footer{
     font-weight: 800;
     position: absolute; 
     right: 10%; 
-    top: 110%; 
+    top: 113%; 
     z-index: 1000;
     transition-duration: 0.4s;
 }
@@ -460,7 +460,7 @@ footer{
     font-weight: 800;
     position: absolute; 
     right: 10%; 
-    top: 155%; 
+    top: 157%; 
     z-index: 1000;
     transition-duration: 0.4s;
 }
