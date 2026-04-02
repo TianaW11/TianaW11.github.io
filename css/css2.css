@@ -15,7 +15,7 @@ body, html{
      overflow-y: hidden;
 }
 .dropdown a, .dropdown,.dropdown a:hover,.dropdown.show, .Nav, .nav-button, .nav-button:hover
-, .nav-button:hover, .navigation, .navigation:hover,.TTClogo {
+, .nav-button:hover, .navigation, .navigation:hover,.TTClogo, .InsidelookButton, .InsidelookButton:hover {
 cursor: url("../images/CursorClick.png") 102 102, pointer;
 }
 
@@ -86,6 +86,23 @@ cursor: url("../images/CursorClick.png") 102 102, pointer;
     top: 45%; 
     height: 150%;
     width: 150%;
+    animation: bumpy-ride 1.5s infinite ease-in-out;
+}
+@keyframes bumpy-ride{
+  0%, 100%{
+    transform: translate(0);
+  }
+  25%{
+    transform: translate(5px, -25px); 
+  }
+  50%{
+    transform: translate(5px, 0); 
+  }
+  75%{
+    transform: translate(0, -10px);
+  }
+
+ 
 }
 
 .TTClogo{
@@ -193,10 +210,13 @@ cursor: url("../images/CursorClick.png") 102 102, pointer;
     align-items: center;
     justify-content: center;
     transition-duration: 0.4s;
+    transform: 0.10s ease-in-out; 
 }
 .InsidelookButton:hover{
     background-color: rgb(255, 207, 36);
     color: red;
+    transform: scale(1.1);
+
 }
 
 
